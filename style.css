@@ -1,0 +1,481 @@
+*{margin:0; padding:0;}
+
+/*header design*/
+header{
+	background-color:#87509c;
+	padding-bottom:180px;
+}
+.container {
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 12px;
+}
+.header-top{
+	overflow:hidden;
+}
+
+.header-top .logo{
+	width:20%;
+	float:left;
+	
+}
+.header-top .nav{
+	width:80%;
+	float:left;
+	
+}
+.header-top .nav ul{
+	margin:0px;
+	padding:0px;
+	text-align:right;
+}
+.header-top .nav ul li{
+	list-style:none;
+	display:inline;	
+}
+.header-top .nav ul li a{
+	text-decoration:none;
+	font-family: sans-serif;
+	display:inline-block;
+	color:#efefef;
+	padding:10px 20px;
+	text-transform:uppercase;
+	transition:0.3s all ease;
+	font-size:20px
+}
+.header-top .nav ul li a:hover{
+	background:#643a79;
+	
+}
+
+.header-content{
+	text-align:center;
+	margin-top:136px;
+}
+.header-content h2 {
+    font-family: MyriadPro;
+    color: #efefef;
+    font-size: 35.16px;
+    letter-spacing: 1.9px;
+}
+.brown-btn {
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    background: red;
+    padding: 16px 20px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 22px;
+	background:#eb7d4b;
+	color:#efefef;
+	transition:0.3s all ease;
+}
+.brown-btn:hover{
+	background:#761578;
+}
+
+/*services design*/
+.services{
+	background:#17c2a4;	
+	padding:120px 0;
+}
+.section-services{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+.section-services h2 {
+    color: #efefef;
+    margin: 0px 0px;
+    font-size: 39px;
+    font-family: sans-serif;
+}
+
+.section-services p {
+    color: #efefef;
+    margin: 23px 0px;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1.8px;
+}
+
+.services-box {
+    width: 80%;
+	margin:0 auto;
+	overflow:hidden;
+}
+.single-services-box {
+    display: inline-block;
+    width: 22%;
+    text-align: center;
+    color: #efefef;
+    padding: 10px 8px;
+}
+.single-services-box h4 {
+    color: #efefef;
+    margin: 22px 0px;
+    font-size: 27px;
+    font-family: sans-serif;
+}
+.single-services-box p {
+    color: #efefef;
+    font-size: 17px;
+    font-family: sans-serif;
+    line-height: 29px;
+    letter-spacing: 1.9px;
+}
+
+/*design team section*/
+
+.team{
+	background:#e7f1f8;	
+	padding:120px 0;
+}
+.section-team{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+.section-team h2 {
+    color: #3c4761;
+    margin: 0px 0px;
+    font-size: 39px;
+    font-family: sans-serif;
+}
+
+.section-team p {
+    color: #3c4761;
+    margin: 23px 0px;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1.8px;
+}
+
+.team-box {
+    width: 80%;
+	margin:60px auto;
+	overflow:hidden;
+}
+.single-team-box {
+    display: inline-block;
+    width: 22%;
+    text-align: center;
+    color: #3c4761;
+    padding: 10px 8px;
+}
+.single-team-box h4 {
+    color: #3c4761;
+    margin-top: 23px;
+    margin-bottom: 4px;
+    font-size: 27px;
+    font-family: sans-serif;
+}
+.single-team-box a {
+    color: #0d58ffe0;
+	margin-bottom:22px;
+    font-size: 13px;
+    font-family: sans-serif;
+	text-decoration:none;
+	
+}
+.single-team-box p {
+    color: #3c4761;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-top: 17px;
+    line-height: 29px;
+    letter-spacing: 1.9px;
+}
+.single-team-box img {
+    width:150px;
+	height:150px;
+	border-radius:83px;
+}
+
+
+.contacticon img {
+    width: 23px;
+    height: 23px;
+    padding: 12px 4px;
+    display: inline;
+    margin-top: 9px;
+}
+
+/*skills design*/
+.skills{
+	background:#ffffff;	
+	padding:120px 0;
+}
+.section-skills{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+.section-skills h2 {
+    color: #3c4761;
+    margin: 0px 0px;
+    font-size: 39px;
+    font-family: sans-serif;
+}
+
+.section-skills p {
+    color: #3c4761;
+    margin: 23px 0px;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1.8px;
+}
+.skills-progress img {
+    padding: 41px 33px;
+}
+
+
+
+
+
+/*protfolio design*/
+.protfolio{
+	background:#ffdd99;	
+	padding:120px 0;
+	overflow:hidden;
+}
+.section-protfolio{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+.section-protfolio h2 {
+    color: #3c4761;
+    margin: 0px 0px;
+    font-size: 39px;
+    font-family: sans-serif;
+}
+
+.section-protfolio p {
+    color: #3c4761;
+    margin: 23px 0px;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1.8px;
+}
+
+.section-protfolio .allbtn {
+    text-decoration: none;
+    width: 50px;
+    background: #c49d6d;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    transition: 0.2s all ease;
+    margin-top: 26px;
+    display: inline-block;
+}
+.section-protfolio .allbtn:hover{
+    background:#fff;
+	color:#3c4761;
+}
+
+.protfolio-work {
+    width: 100%;
+    overflow: hidden;
+    margin: 51 auto;
+    margin: 64px auto;
+}
+.protfoliowork1 {
+    width: 50%;
+    float: left;
+}
+.protfoliowork1 img {
+    width: 90%;
+    /* float: left; */
+    /* margin-bottom: 48px; */
+    margin: 0 auto;
+    padding: 23px;
+}
+.protfoliowork1 h3{
+	color: #3c4761;
+    font-size: 19px;
+    font-family: sans-serif;
+	margin-bottom: 51px;
+}
+#LOADmorebtn {
+    width: 200px;
+    background: #17c2a4;
+    padding: 15px 29px;
+    text-decoration: none;
+    color: #faf8f8;
+    border-radius: 11px;
+}
+#LOADmorebtn:hover{
+	background:#31655c;
+}
+/*about us design*/
+
+.abooutus{
+	background:#d74680;	
+	padding:120px 0;
+}
+.section-abooutus{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+	overflow:hidden;
+}
+.section-abooutus h2 {
+    color: #efefef;
+    margin: 0px 0px;
+    font-size: 39px;
+    font-family: sans-serif;
+}
+
+.section-abooutus p {
+    color: #efefef;
+    margin: 0px 0px;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 0.8px;
+}
+.aboutustesti {
+    width: 90%;
+    margin: 86px auto;
+}
+
+.testimonials-singlebox {
+    width: 45%;
+    float: left;
+    /* padding: 0px 13px; */
+    display: inline;
+}
+.testimonials-singlebox img {
+    width: 22%;
+    border-radius: 100%;
+}
+.testpara {
+    width: 50%;
+    float: right;
+    text-align: justify;
+}
+
+
+.testpara p {
+    color: #efefef;
+    margin: 0px 0px;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 0.8px;
+}
+.testpara h2{
+	color: #efefef;
+    margin: 8px 0px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.testpara h5{
+	color: #222553;
+    margin: 0px 0px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+
+
+/*about us design eend*/
+
+/*formarea design*/
+.formarea{
+	background:#3c5499;	
+	padding:120px 0;
+}
+.section-formarea{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+.section-formarea h2 {
+    color: #efefef;
+    margin: 0px 0px;
+    font-size: 39px;
+    font-family: sans-serif;
+}
+
+.section-formarea p {
+    color: #efefef;
+    margin: 23px 0px;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1.8px;
+}
+.contactform input {
+    width: 35%;
+    margin: 21px 18px;
+    padding: 14px 6px;
+    border-radius: 12px;
+    background: #273a71;
+    border: none;
+    /* border-bottom: 1px solid #848484eb; */
+    color: #e6e6e6;
+}
+.contactform textarea {
+    margin: 23px 18px;
+    padding: 9px 5px;
+    width: 76%;
+    border-radius: 12px;
+    background: #273a71;
+    border: none;
+    color: #e6e6e6;
+	text-align:left;
+}
+.contactform a {
+    /* margin: 23px 18px; */
+    /* padding: 9px 5px; */
+    /* width: 76%; */
+    /* border-radius: 12px; */
+    /* background: #273a71; */
+    /* border: none; */
+    /* color: #e6e6e6; */
+    /* text-align: left; */
+    display: block;
+    background: #30bae7;
+    width: 155px;
+    padding: 12px 21px;
+    text-align: center;
+    margin: 19px auto;
+    text-decoration: none;
+    color: #ebebeb;
+    font-weight: 700;
+	border-radius:8px;
+	transition:0.3s all ease;
+}
+.contactform a:hover {
+	background:#20434f;
+}
+
+
+/*footer area start*/
+
+.footer{
+	background:#344b8e;
+}
+footer{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+.section-footer a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+.section-footer a:hover {
+   color:#00c0ff;
+}
+.mobilemenu{
+display:none;
+}
